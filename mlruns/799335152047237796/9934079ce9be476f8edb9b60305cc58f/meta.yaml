@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Mlflow-Basics/mlruns/799335152047237796/9934079ce9be476f8edb9b60305cc58f/artifacts
+end_time: 1719344153479
+entry_point_name: ''
+experiment_id: '799335152047237796'
+lifecycle_stage: active
+run_id: 9934079ce9be476f8edb9b60305cc58f
+run_name: rambunctious-kit-52
+run_uuid: 9934079ce9be476f8edb9b60305cc58f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719344151561
+status: 3
+tags: []
+user_id: codespace

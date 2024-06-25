@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Mlflow-Basics/mlruns/685158282183583465/d65562a244a0426bae1f6506cdd1e21c/artifacts
+end_time: 1719344079146
+entry_point_name: ''
+experiment_id: '685158282183583465'
+lifecycle_stage: active
+run_id: d65562a244a0426bae1f6506cdd1e21c
+run_name: sneaky-donkey-771
+run_uuid: d65562a244a0426bae1f6506cdd1e21c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719344079134
+status: 4
+tags: []
+user_id: codespace

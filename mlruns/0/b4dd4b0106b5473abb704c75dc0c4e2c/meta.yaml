@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Mlflow-Basics/mlruns/0/b4dd4b0106b5473abb704c75dc0c4e2c/artifacts
+end_time: 1719341908530
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b4dd4b0106b5473abb704c75dc0c4e2c
+run_name: Exmaple_demo
+run_uuid: b4dd4b0106b5473abb704c75dc0c4e2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719341908518
+status: 3
+tags: []
+user_id: codespace
