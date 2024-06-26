@@ -13,7 +13,7 @@ from sklearn import metrics
 # load the dataset
 dataset = pd.read_csv("train.csv")
 numerical_cols = dataset.select_dtypes(include=['int64', 'float64']).columns.to_list()
-categorical_cols = dataset.select_dtypes(includes=['object']).columns.to_list()
+categorical_cols = dataset.select_dtypes(include=['object']).columns.to_list()
 categorical_cols.remove('Loan_Status')
 categorical_cols.remove('Loan_ID')
 
@@ -69,7 +69,7 @@ grid_forest = GridSearchCV(
     verbose=0
 )
 
-model_forest = grid_forest.fir(X_train, y_train)
+model_forest = grid_forest.fit(X_train, y_train)
 
 # Logistic Regression
 lr = LogisticRegression(random_state=RANDOM_SEED)
@@ -133,7 +133,7 @@ def eval_metrrics(actual, pred):
 def mlflow_logging(model, X, y, name):
 
     with mlflow.start_run() as run:
-        mlflow.set_tracking_uri('http://0.0.0.0:5001')
+        # mlflow.set_tracking_uri('http://0.0.0.0:5001')
         run_id = run.info.run_id
         mlflow.set_tag('run_id', run_id)
         pred = model.predict(X)

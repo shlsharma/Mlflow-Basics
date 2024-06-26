@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOps/Mlflow-Basics/mlruns/161921786127960668/baa599736ca44c17ab860da59e10477f/artifacts
+end_time: 1719403480900
+entry_point_name: ''
+experiment_id: '161921786127960668'
+lifecycle_stage: active
+run_id: baa599736ca44c17ab860da59e10477f
+run_name: inquisitive-gull-791
+run_uuid: baa599736ca44c17ab860da59e10477f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719403473496
+status: 3
+tags: []
+user_id: Sahil Sharma

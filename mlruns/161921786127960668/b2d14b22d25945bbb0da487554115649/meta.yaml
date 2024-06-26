@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOps/Mlflow-Basics/mlruns/161921786127960668/b2d14b22d25945bbb0da487554115649/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '161921786127960668'
+lifecycle_stage: active
+run_id: b2d14b22d25945bbb0da487554115649
+run_name: casual-asp-828
+run_uuid: b2d14b22d25945bbb0da487554115649
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719403115141
+status: 1
+tags: []
+user_id: Sahil Sharma
