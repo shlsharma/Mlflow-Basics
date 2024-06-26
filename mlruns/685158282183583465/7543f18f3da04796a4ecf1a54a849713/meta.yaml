@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Mlflow-Basics/mlruns/685158282183583465/7543f18f3da04796a4ecf1a54a849713/artifacts
+end_time: 1719392257570
+entry_point_name: ''
+experiment_id: '685158282183583465'
+lifecycle_stage: active
+run_id: 7543f18f3da04796a4ecf1a54a849713
+run_name: sneaky-skink-188
+run_uuid: 7543f18f3da04796a4ecf1a54a849713
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719392254869
+status: 3
+tags: []
+user_id: codespace

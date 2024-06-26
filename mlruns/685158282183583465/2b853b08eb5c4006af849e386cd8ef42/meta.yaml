@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Mlflow-Basics/mlruns/685158282183583465/2b853b08eb5c4006af849e386cd8ef42/artifacts
+end_time: 1719378040088
+entry_point_name: ''
+experiment_id: '685158282183583465'
+lifecycle_stage: active
+run_id: 2b853b08eb5c4006af849e386cd8ef42
+run_name: receptive-bug-255
+run_uuid: 2b853b08eb5c4006af849e386cd8ef42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719378040076
+status: 4
+tags: []
+user_id: codespace

@@ -24,17 +24,17 @@ def eval_function(actual, pred):
 
 def main(alpha, l1_ratio):
     df = load_data()
-    TARGET = 'quality'
+    TARGET = "quality"
     X = df.drop(columns=TARGET)
     y = df[TARGET]
-    X_train, y_train, X_test, y_test = train_test_split(X, y, random_state=6, test_size=0.2)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=6, test_size=0.2)
 
     mlflow.set_experiment('ML-model-1')
     with mlflow.start_run():
         mlflow.log_param('alpha', alpha)
         mlflow.log_param('l1_ratio', l1_ratio)
 
-        model = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=0)
+        model = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=6)
         model.fit(X_train, y_train)
         y_pred = model.predict(X_test)
         rmse, mae, r2 = eval_function(y_test, y_pred)
@@ -48,8 +48,8 @@ def main(alpha, l1_ratio):
 
 if __name__=='__main__':
     args = argparse.ArgumentParser()
-    args.add_argument('--alpha', '-a', type=int, default=0.2)
-    args.add_argument('--l1_ratio', '-l1', type=int, default=0.3)
+    args.add_argument('--alpha', '-a', type=float, default=0.2)
+    args.add_argument('--l1_ratio', '-l1', type=float, default=0.3)
     parsed_args = args.parse_args()
     # parsed_args.param1
     main(parsed_args.alpha, parsed_args.l1_ratio)
