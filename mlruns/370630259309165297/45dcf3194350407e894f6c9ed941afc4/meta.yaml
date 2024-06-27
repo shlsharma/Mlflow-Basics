@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Mlflow-Basics/mlruns/370630259309165297/45dcf3194350407e894f6c9ed941afc4/artifacts
+end_time: 1719475991212
+entry_point_name: ''
+experiment_id: '370630259309165297'
+lifecycle_stage: active
+run_id: 45dcf3194350407e894f6c9ed941afc4
+run_name: capricious-lark-957
+run_uuid: 45dcf3194350407e894f6c9ed941afc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719475946482
+status: 3
+tags: []
+user_id: codespace

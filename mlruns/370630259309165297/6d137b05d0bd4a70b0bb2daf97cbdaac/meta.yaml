@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Mlflow-Basics/mlruns/370630259309165297/6d137b05d0bd4a70b0bb2daf97cbdaac/artifacts
+end_time: 1719476383429
+entry_point_name: ''
+experiment_id: '370630259309165297'
+lifecycle_stage: active
+run_id: 6d137b05d0bd4a70b0bb2daf97cbdaac
+run_name: handsome-mule-845
+run_uuid: 6d137b05d0bd4a70b0bb2daf97cbdaac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719476381941
+status: 3
+tags: []
+user_id: codespace

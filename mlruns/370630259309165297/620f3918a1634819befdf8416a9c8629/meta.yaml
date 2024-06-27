@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Mlflow-Basics/mlruns/370630259309165297/620f3918a1634819befdf8416a9c8629/artifacts
+end_time: 1719476381940
+entry_point_name: ''
+experiment_id: '370630259309165297'
+lifecycle_stage: active
+run_id: 620f3918a1634819befdf8416a9c8629
+run_name: ambitious-bird-587
+run_uuid: 620f3918a1634819befdf8416a9c8629
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719476380484
+status: 3
+tags: []
+user_id: codespace

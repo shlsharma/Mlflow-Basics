@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Mlflow-Basics/mlruns/370630259309165297/e821fc5301b144e08222c232529919dc/artifacts
+end_time: 1719476319859
+entry_point_name: ''
+experiment_id: '370630259309165297'
+lifecycle_stage: active
+run_id: e821fc5301b144e08222c232529919dc
+run_name: caring-cod-584
+run_uuid: e821fc5301b144e08222c232529919dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719476159887
+status: 4
+tags: []
+user_id: codespace

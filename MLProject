@@ -1,0 +1,7 @@
+name: Loan_prediction
+
+conda_env: conda.yaml # environment file will be setup
+
+entry_points: # The entry point command be executed after env setup it hold the command which need to executed when ev is created
+ main:
+  command: "python loan_prediction.py"
